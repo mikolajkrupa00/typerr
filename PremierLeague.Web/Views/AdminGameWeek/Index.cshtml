@@ -1,0 +1,26 @@
+﻿@model PremierLeague.ViewModels.Models.GameWeek.VMAdminGameWeekIndex
+<html>
+<head>
+
+</head>
+<body>
+    <div> 
+        <p>@Html.ActionLink("Add GameWeek", "AddGameWeek", "AdminGameWeek")</p>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var gameWeek in Model.GameWeeks)
+                {
+                    <tr>
+                        <td>@gameWeek.Name</td>                       
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

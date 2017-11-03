@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremierLeague.Web", "PremierLeague.Web\PremierLeague.Web.csproj", "{94090C01-754A-4453-B9EA-CDCFC8D51BDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogicLayer", "LogicLayer", "{1E0FEDDD-552E-412B-8A99-39F263152969}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccessLayer", "AccessLayer", "{71FE9452-A213-49D5-AB3C-7B827D4F4508}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentetion", "Presentetion", "{EED55330-17E9-4631-98E5-32C51437C014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremierLeague.ViewModels", "PremierLeague.ViewModels\PremierLeague.ViewModels.csproj", "{BE1527A5-24EB-48BB-9733-F138868C122F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremierLeague.Services", "PremierLeague.Services\PremierLeague.Services.csproj", "{B24978A4-7223-4E3F-8861-A94607BCE19F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremierLeague.CoreModels", "PremierLeague.CoreModels\PremierLeague.CoreModels.csproj", "{D74BEAA3-6787-4EBF-8170-188AAE969B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremierLeague.Extensions", "PremierLeague.Extensions\PremierLeague.Extensions.csproj", "{431703DF-AF65-4A3A-BC07-4C7F2C49104C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremierLeague.DataBase.Migrations", "PremierLeague.Migrations\PremierLeague.DataBase.Migrations.csproj", "{9737557F-9C4D-4BDB-B25E-CFE63F32DA5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremierLeague.DataBase.Access", "PremierLeague.Access\PremierLeague.DataBase.Access.csproj", "{DE20FEE0-3F42-479C-B39A-4AF52BBDD621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremierLeague.DataBase.Models", "PremierLeague.DataBase.Models\PremierLeague.DataBase.Models.csproj", "{54974239-B5CF-43ED-BD44-261884D1571B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94090C01-754A-4453-B9EA-CDCFC8D51BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94090C01-754A-4453-B9EA-CDCFC8D51BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94090C01-754A-4453-B9EA-CDCFC8D51BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94090C01-754A-4453-B9EA-CDCFC8D51BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1527A5-24EB-48BB-9733-F138868C122F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1527A5-24EB-48BB-9733-F138868C122F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1527A5-24EB-48BB-9733-F138868C122F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1527A5-24EB-48BB-9733-F138868C122F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24978A4-7223-4E3F-8861-A94607BCE19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24978A4-7223-4E3F-8861-A94607BCE19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24978A4-7223-4E3F-8861-A94607BCE19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24978A4-7223-4E3F-8861-A94607BCE19F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74BEAA3-6787-4EBF-8170-188AAE969B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74BEAA3-6787-4EBF-8170-188AAE969B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74BEAA3-6787-4EBF-8170-188AAE969B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74BEAA3-6787-4EBF-8170-188AAE969B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431703DF-AF65-4A3A-BC07-4C7F2C49104C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431703DF-AF65-4A3A-BC07-4C7F2C49104C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431703DF-AF65-4A3A-BC07-4C7F2C49104C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431703DF-AF65-4A3A-BC07-4C7F2C49104C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9737557F-9C4D-4BDB-B25E-CFE63F32DA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9737557F-9C4D-4BDB-B25E-CFE63F32DA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9737557F-9C4D-4BDB-B25E-CFE63F32DA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9737557F-9C4D-4BDB-B25E-CFE63F32DA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE20FEE0-3F42-479C-B39A-4AF52BBDD621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE20FEE0-3F42-479C-B39A-4AF52BBDD621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE20FEE0-3F42-479C-B39A-4AF52BBDD621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE20FEE0-3F42-479C-B39A-4AF52BBDD621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54974239-B5CF-43ED-BD44-261884D1571B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54974239-B5CF-43ED-BD44-261884D1571B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54974239-B5CF-43ED-BD44-261884D1571B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54974239-B5CF-43ED-BD44-261884D1571B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94090C01-754A-4453-B9EA-CDCFC8D51BDA} = {EED55330-17E9-4631-98E5-32C51437C014}
+		{BE1527A5-24EB-48BB-9733-F138868C122F} = {EED55330-17E9-4631-98E5-32C51437C014}
+		{B24978A4-7223-4E3F-8861-A94607BCE19F} = {1E0FEDDD-552E-412B-8A99-39F263152969}
+		{D74BEAA3-6787-4EBF-8170-188AAE969B95} = {1E0FEDDD-552E-412B-8A99-39F263152969}
+		{431703DF-AF65-4A3A-BC07-4C7F2C49104C} = {1E0FEDDD-552E-412B-8A99-39F263152969}
+		{9737557F-9C4D-4BDB-B25E-CFE63F32DA5B} = {71FE9452-A213-49D5-AB3C-7B827D4F4508}
+		{DE20FEE0-3F42-479C-B39A-4AF52BBDD621} = {71FE9452-A213-49D5-AB3C-7B827D4F4508}
+		{54974239-B5CF-43ED-BD44-261884D1571B} = {71FE9452-A213-49D5-AB3C-7B827D4F4508}
+	EndGlobalSection
+EndGlobal

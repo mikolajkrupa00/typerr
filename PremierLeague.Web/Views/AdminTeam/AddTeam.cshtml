@@ -1,0 +1,11 @@
+﻿@model PremierLeague.ViewModels.Models.Team.VMAdminTeamAddTeam
+
+<body>
+    <div> 
+        @using (@Html.BeginForm("AddTeam","AdminTeam",FormMethod.Post))
+        {
+            @Html.EditorFor(x => x)
+            <input type="submit" value="send" />
+        }
+    </div>
+</body>

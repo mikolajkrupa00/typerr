@@ -1,0 +1,30 @@
+﻿@model PremierLeague.ViewModels.Models.Season.VMAdminSeasonIndex
+
+<html>
+<head>
+
+</head>
+<body>
+    <div> 
+        <p>@Html.ActionLink("Add Season", "AddSeason", "AdminSeason")</p>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>StartYear</th>
+                    <th>EndYear</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var season in Model.Seasons)
+                {
+                <tr>
+                    <td>@season.StartYear</td>
+                    <td>@season.EndYear</td>
+                    <td>@Html.ActionLink("Delete", "DeleteSeason", "AdminSeason", new {seasonId=season.SeasonId}, null)</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿@model PremierLeague.ViewModels.Models.Season.VMAdminSeasonAddSeason
+
+<html>
+<head>
+
+</head>
+<body>
+    <div> 
+        @using (Html.BeginForm("AddSeason", "AdminSeason", FormMethod.Post))
+        {
+            @Html.EditorFor(x => x)
+            <input type="submit" value="Send"/>
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿@model PremierLeague.ViewModels.Models.Team.VMAdminTeamIndex
+
+<html>
+<head>
+</head>
+<body>
+        <div>
+            <h1>Teams</h1> 
+            <p>@Html.ActionLink("Add Team", "AddTeam", "AdminTeam")</p>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var team in Model.Teams)
+                    {
+
+
+                        <tr>
+                            <td>@team.Name</td>
+                            <td> @Html.ActionLink("Delete", "DeleteTeam", "AdminTeam", new { teamId = team.TeamId }, null)</td> 
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+        </div>
+
+</body>
+</html>
